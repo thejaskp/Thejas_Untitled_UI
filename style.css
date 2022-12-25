@@ -1,0 +1,44 @@
+.btn {
+    font-size: 20;
+    border-radius: 10;
+    width:100%;    
+}
+@media only screen and (max-width: 1026px) {
+    #container_2{
+        display: none;
+    }
+}
+.main{
+    display: flex;
+}
+.row_main{
+    display: flex;
+}
+.class-row{
+    display: flex;
+    padding-left: 10;
+    padding: 10;
+    margin: 10;
+}
+
+.fa {
+    padding-inline: 20px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: black;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+  }
+  @media (max-width: 400px) {
+    #copyright {
+       text-align: center;
+    }
+    #social > div{
+       display: block;
+       width: 100%;
+       margin:  auto;
+       text-align: center;
+    }
+ }
